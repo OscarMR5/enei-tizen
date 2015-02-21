@@ -1,4 +1,5 @@
 ( function () {
+	
 	window.addEventListener('load', function(e){
 		var texto=document.getElementById('txtTexto');
 		var button=document.getElementById('btnPrueba');
