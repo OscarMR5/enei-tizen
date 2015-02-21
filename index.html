@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
 	<meta name="viewport" content="width=device-width,user-scalable=no"/>
 	<title>Wearable UI</title>
@@ -7,8 +7,10 @@
 	<!-- load theme file for your application -->
 	<link rel="stylesheet"  href="css/style.css">
 	
-	<link rel="text/javascript" href="js/jquery-1.9.1.js">
-	<link rel="text/javascript" href="js/main.js">
+	 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	 <script type="text/javascript" src="lib/jso/jso.js"></script>
+	 <script type="text/javascript" src="js/sabadell/function.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<div class="ui-page ui-page-active" id="main">
@@ -31,6 +33,19 @@
 
 var oldVal = $("#foo").progress("option", "value");
 $("#foo").progress("option", "value", 50); -->
+	<div id="cabecera">
+	<header class="ui-header">
+			<h2 class="ui-title">Wearable UI</h2>
+	</header>
+	</div>
+	
+	<div id="content">
+	
+		
+	</div>
+		
+		
+	</div>
 </body>
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <!-- load javascript file for your application -->
