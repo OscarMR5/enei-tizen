@@ -13,16 +13,24 @@
 <body>
 	<div class="ui-page ui-page-active" id="main">
 		<header class="ui-header">
-			<h2 class="ui-title">Wearable UI</h2>
+			<h2 class="ui-title" data-position="fixed" align="center">1500 € &uarr</h2>
 		</header>
 		<div class="ui-content content-padding">
-			<ul class="ui-listview">
-				<p id="txtTexto">Hello! </p>
-			</ul>
-			<button id="btnPrueba" class="ui-button">Prueba
-			</button>
+			<ul class="ui-listview">				
+				<li><img class="imagen_notificacion" src="img/oferta1.jpg"></img><span> Portatil 400€</span></li>
+				<li><img class="imagen_notificacion" src="img/oferta2.jpg"></img><span> PC 300€</span></li>
+				<li><img class="imagen_notificacion" src="img/oferta3.jpg"></img><span> iPhone 600€</span></li>
+			</ul>		
 		</div>
-	</div>
+     </div>
+		
+	<!-- 
+	$("#foo").on("change", function()
+{
+});
+
+var oldVal = $("#foo").progress("option", "value");
+$("#foo").progress("option", "value", 50); -->
 </body>
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <!-- load javascript file for your application -->
